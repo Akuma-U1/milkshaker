@@ -1,0 +1,14 @@
+{
+  "name": "milkshake-api",
+  "version": "1.0.0",
+  "description": "Milkshake API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jgf.langen3@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
