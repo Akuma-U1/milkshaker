@@ -1,14 +1,17 @@
 # Project
+
 This is the README for the **Milkshaker** web application. **Milkshaker** is an ap where users can upload their ratings for milkshakes they have tasted around the world. These ratings are saved and can be compared and searched for based on location.  Milkshakes are saved against their Google-Places ID.
 
-This project serves primarily as a fun project to explore NextJs and React as frontend technologies, as well as ExpressJs as a backend technology. 
+This project serves primarily as a fun project to explore NextJs and React as frontend technologies, as well as ExpressJs as a backend technology.
 
 To get started clone this repo and follow the steps below.
 
-# Backend
+## Backend
+
 This project uses Express.js for the api. For development purposes `nodemon`, `typescript`, and `concurrently` are used to create a working environment that changes as you save files.
 
-## Getting Started
+### Getting Started - Backend
+
 1. `cd` in to the `milkshaker-api` directory.
 2. Run `npm install` to get all of the packages necessary.
 3. Run  `npm run dev` to start up the development server.
@@ -16,12 +19,13 @@ This project uses Express.js for the api. For development purposes `nodemon`, `t
 
 The server uses the `dotenv` package to dictate which port it should run on. By default, this port is `3001`, but can be changed by editing the `.env` file in the `/milkshaker-api/` directory.
 
-# Frontend
+## Frontend
+
 *This text was automatically generated and slightly edited as seen fit for the project.*
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started - Frontend
 
 First, run the development server:
 
@@ -47,3 +51,10 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Service Architecture
+
+- For the frontend, github pages for this project is used
+- For the api, heroku, or a cheap EC2 AWS server will be set up
+- For the database, check out HelioHost. Free DB hosting
+- Try to do as much as possible in docker containers regarding the api and the db.
