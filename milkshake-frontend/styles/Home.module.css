@@ -1,5 +1,21 @@
 .container {
   padding: 0 2rem;
+  background-color: #f5f4a98f;
+}
+
+.milkshakeLogo {
+  color: #B3F2C7;
+  animation: logoAnimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logoAnimation {
+  0% { color: #F2C2C2; }
+  25% { color: #F2CEF2; }
+  50% { color: #B3F2C7; }
+  75% { color: #D7C2F2; }
+  100% { color: #F2C2C2; }
 }
 
 .main {
