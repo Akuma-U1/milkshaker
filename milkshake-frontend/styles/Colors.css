@@ -1,9 +1,9 @@
 /* Color Theme Swatches in Hex */
 .Milkshake-coral { color: #F2C2C2; }
 .Milkshake-yellow { color: #F5F4A9; }
-.Milkshake-pink { color: #F2CEF2; }
-.Milkshake-green { color: #B3F2C7; }
-.Milkshake-purple { color: #D7C2F2; }
+.Milkshake-pink { color: rgb(242, 206, 242); }
+.Milkshake-green { color: rgb(179, 242, 199); }
+.Milkshake-purple { color: rgb(215, 194, 242); }
 
 .Milkshake-coral-background { background-color: #F2C2C2; }
 .Milkshake-yellow-background { background-color: #F5F4A9; }
