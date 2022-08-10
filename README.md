@@ -1,6 +1,11 @@
 # Project
 
-This is the README for the **Milkshaker** web application. **Milkshaker** is an ap where users can upload their ratings for milkshakes they have tasted around the world. These ratings are saved and can be compared and searched for based on location.  Milkshakes are saved against their Google-Places ID.
+This is the README for the **Milkshaker** web application.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/33059719/184033331-5144100c-9500-40a0-a1fc-b22ab036991c.gif" />
+</p>
+
+**Milkshaker** is an ap where users can upload their ratings for milkshakes they have tasted around the world. These ratings are saved and can be compared and searched for based on location.  Milkshakes are saved against their Google-Places ID.
 
 This project serves primarily as a fun project to explore NextJs and React as frontend technologies, as well as ExpressJs as a backend technology.
 
