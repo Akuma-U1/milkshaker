@@ -1,26 +1,25 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
+import { Button } from '@chakra-ui/react'
+import MilkHead from '../components/Head/Head'
 
 const Home: NextPage = () => {
   return (
     <div className={`${styles.container}`}>
-      <Head>
-        <title>Milkshaker</title>
-        <meta name="description" content="Your favourite milkshake rating app!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <MilkHead title='Milkshaker' />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <span className={styles.milkshakeLogo}>Milkshaker!</span>
         </h1>
+        <Link href={'/rate'}>
+          <Button background={'#d7c2f2'} size='lg' _hover={{
+            bg: '#b3f2c7'
+          }} className={styles.main_button}>
+            Rate a Shake!
+          </Button>
+        </Link>
       </main>
-
-
-
-
     </div>
   )
 }

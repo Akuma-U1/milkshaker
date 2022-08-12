@@ -1,5 +1,4 @@
 .container {
-  padding: 0 2rem;
   background-color: #f5f4a98f;
 }
 
@@ -16,6 +15,10 @@
   50% { color: #B3F2C7; }
   75% { color: #D7C2F2; }
   100% { color: #F2C2C2; }
+}
+
+.main_button {
+  margin-top: 32px
 }
 
 .main {
