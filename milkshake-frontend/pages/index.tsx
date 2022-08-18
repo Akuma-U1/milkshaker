@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import { Button } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/button'
 import MilkHead from '../components/Head/Head'
 
 const Home: NextPage = () => {

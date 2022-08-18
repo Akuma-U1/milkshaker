@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Rate.module.css'
-import { Button } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/button'
 import Link from 'next/link'
 import Navbar from '../components/Navbar/Navbar'
 import MilkHead from '../components/Head/Head'

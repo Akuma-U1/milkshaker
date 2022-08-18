@@ -1,6 +1,47 @@
-
 .navbar {
     height: 80px;
     width: 100vw;
-    background-color: #F2C2C2;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16%;
 }
+
+.navbar .icons {
+    width: 33%;
+    display: flex;
+    gap: 16px;
+    font-size: 24px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.navbar .searchbar {
+    width: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .logo {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #B3F2C7;
+    animation: logoAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 32px;
+}
+
+@keyframes logoAnimation {
+    0% { color: #F2C2C2; }
+    25% { color: #F2CEF2; }
+    50% { color: #B3F2C7; }
+    75% { color: #D7C2F2; }
+    100% { color: #F2C2C2; }
+  }
+
+/* #F2C2C2 */

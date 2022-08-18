@@ -4,7 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider>
+    <ChakraProvider cssVarsRoot={undefined}>
       <Component {...pageProps} />
     </ChakraProvider>
   )
